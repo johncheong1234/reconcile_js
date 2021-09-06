@@ -35,7 +35,7 @@ async function uploadData(url, stringData) {
 }
 
 app.get('/length_test',(req,res)=>{
-  res.send('10')
+  res.send('0')
 })
 
 app.post('/upload_sgx_primo_dict_complex',async(req,res)=>{
